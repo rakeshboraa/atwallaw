@@ -14,7 +14,7 @@ const practiceAreas = () => {
     return (
 
         <>
-            <div className=" h-[70vh]  bg-black  text-white px-6 w-[80%] pt-10 flex  ">
+            <div className=" h-[70vh] px-6 w-[80%] pt-10 flex  ">
                 <div className='flex flex-col gap-10 justify-end flex-1 pb-11  '>
                     <TitleCommon titleText="Practice Areas" />
                     <SubTitle subtitle="Explore Our Practice Areas" />
@@ -22,12 +22,12 @@ const practiceAreas = () => {
                     <GoogleReview />
                 </div>
             </div>
-            <div className='flex flex-col text-white my-20'>
+            <div className='flex flex-col  my-20'>
                 <TitleCommon titleText="Practice Areas" />
                 <LegalTermsGrid />
             </div>
             <div className='flex gap-10'>
-                <div className='flex gap-7 w-[64%] flex-col text-white my-20'>
+                <div className='flex gap-7 w-[64%] flex-col  my-20'>
                     <TitleCommon titleText="Assault with a Weapon" />
                     <SubTitle subtitle="Navigating the Legal Battle: Securing a Skilled Assault with a Weapon Lawyer" />
                     <div className='flex flex-col '>
@@ -43,7 +43,7 @@ const practiceAreas = () => {
                         <h1 className='font-extrabold text-4xl'>Assault with a Weapon Lawyer</h1>
                         <Description descriptionText="If you or your loved one is charged with Assault with a Weapon, you need to hire a skilled lawyer immediately. As compared to simple assault, assault with a weapon is a more serious crime and has severe consequences. Even if you did not actually strike the other person, you could be charged and face consequences. We are here to help you win the legal battle. Kahlon Law is a recognized criminal law firm offering excellent criminal defense solutions.  In legal terms, assault is defined as the application of force against another individual without their consent. Assault with a Weapon is a broad criminal category because anything can be a weapon- a gun, knife, or any other object used with force to cause harm. The consequence of this type of offense could be sentencing for ten years in prison. If you are found guilty of Assault with a Weapon, you will have a permanent criminal record that can impact your employment prospects and may even restrict travel freedom.  Over the years, we have successfully represented individuals accused of Assault with a Weapon. We find every possible way to reduce the penalties or eliminate charges completely.  As an experienced criminal lawyer, we have handled several cases of Assault with a Weapon. It is essential to hire an experienced criminal defence lawyer as soon as possible to ensure the best possible outcome of your case. Contact us today for a consultation to discuss the unique facts surrounding your case, and let us get to work defending the allegations made against you!" />
                     </div>
-                    <div className='flex gap-6 flex-col w-full bg-[#212833] p-16 rounded-md'>
+                    <div className='flex gap-6 flex-col w-full border-2 border-[#0F4C85]  p-16 rounded-md'>
                         <h1 className='text-5xl font-extrabold leading-[55px]'>Need Legal Guide? <br />
                             Look to Antar's Side!</h1>
                         <p className='text-xl'>Seeking guidance through legal challenges? Let us navigate the complexities together and find solutions tailored to your needs.</p>
@@ -142,7 +142,7 @@ const practiceAreas = () => {
                     <SimilarArticles />
                 </div>
             </div>
-            <div className=" bg-black  text-white px-6   flex  ">
+            <div className=" px-6  flex  ">
                 <div className='flex flex-col gap-8  flex-1  pb-11 justify-center'>
                     <TitleCommon titleText="Get In Touch" />
                     <SubTitle subtitle={

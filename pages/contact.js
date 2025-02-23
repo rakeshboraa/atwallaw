@@ -5,7 +5,7 @@ import React from 'react'
 
 const contact = () => {
     return (
-        <div className='mt-10 text-white'>
+        <div className='mt-10 '>
             <div className='flex flex-1'>
                 <div className='flex flex-col'>
                     <div className='flex flex-col gap-10 mt-7 w-[90%]'>

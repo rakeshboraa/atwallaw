@@ -38,7 +38,7 @@ const FaqDropDown = () => {
     };
 
     return (
-        <div className="text-white my-20 space-y-4">
+        <div className=" my-20 space-y-4">
             {faqs.map((faq, index) => (
                 <div key={index} className="border-b  border-gray-300">
                     <button

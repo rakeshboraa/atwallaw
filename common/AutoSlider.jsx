@@ -72,21 +72,21 @@ const AutoSlider = ({ items }) => {
             {/* Slider Container */}
             <motion.div
                 ref={sliderRef}
-                className="flex space-x-8 overflow-hidden no-scrollbar w-full"
+                className="flex space-x-6 overflow-hidden no-scrollbar w-full"
             >
                 {extendedItems.map((item, index) => (
                     <div
                         key={index}
-                        className="flex-shrink-0 rounded-lg bg-[#191F29] p-4 shadow-md"
+                        className="flex-shrink-0 border-2 border-[#0F4C85] rounded-lg p-4 shadow-md"
                         style={{ minWidth: itemWidth, maxWidth: itemWidth }}
                     >
                         <div className="flex justify-between p-3 items-center">
-                            <div className="flex flex-col gap-8">
-                                <div className="bg-[#212833] items-center flex justify-center w-[90px] h-[90px] p-4 rounded-full">
-                                    <VenusAndMars className='h-11 w-11 text-red-800' />
+                            <div className="flex flex-col gap-5">
+                                <div className="bg-white shadow-lg  border-[#0F4C85] border-2 items-center flex justify-center w-[90px] h-[90px] p-4 rounded-full">
+                                    <VenusAndMars className='h-11 w-11 text-[#0F4C85]' />
                                 </div>
                                 <h3 className="text-2xl">Aggravated Assault</h3>
-                                <span className="text-lg underline underline-offset-2 text-red-800 cursor-pointer">View Details</span>
+                                <span className="text-lg underline underline-offset-2 text-[#0F4C85] cursor-pointer">View Details</span>
                             </div>
                         </div>
                     </div>

@@ -6,7 +6,7 @@ import React from 'react'
 
 const Faq = () => {
   return (
-    <div className='text-white mt-40 '>
+    <div className=' mt-40 '>
       <div className='flex flex-col gap-10 w-[50%]'>
         <TitleCommon titleText="FAQ" />
         <SubTitle subtitle="Your Questions, Our Clarity" />

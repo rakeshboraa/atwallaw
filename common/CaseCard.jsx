@@ -1,7 +1,7 @@
 const CaseCard = ({ icon: Icon, title, caseRef, description, buttonText }) => {
     return (
-        <div className='w-full gap-5 flex flex-col h-auto bg-[#191F29] rounded-lg p-6'>
-            <Icon className='h-11 w-11 text-red-700' />
+        <div className='w-full gap-5 flex  shadow-2xl flex-col h-auto bg-white  border-2 border-[#0F4C85] rounded-lg p-6'>
+            <Icon className='h-11 w-11 text-[#0F4C85]' />
             <div className='flex justify-between font-bold text-[24px] w-full'>
                 <h2>{title}</h2>
                 <span>{caseRef}</span>
@@ -10,7 +10,7 @@ const CaseCard = ({ icon: Icon, title, caseRef, description, buttonText }) => {
                 {description.length > 330 ? description.substring(0, 330)+"...." : description}
             </p>
             <div className='flex w-full justify-end'>
-                <button className='px-5 h-[50px] rounded-lg border-solid border-2 border-[#FF000066]'>
+                <button className='px-5 h-[50px] rounded-lg border-solid border-2 border-[#0F4C85]'>
                     {buttonText} <span>&gt;</span>
                 </button>
             </div>

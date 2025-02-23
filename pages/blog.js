@@ -27,13 +27,13 @@ const blog = () => {
 
                     <div className="mt-6 flex  space-x-2">
                         <button className="px-3 py-1 bg-gray-300 text-gray-700 rounded-lg">Previous</button>
-                        <button className="px-3 py-1  text-white rounded-lg">1</button>
-                        <button className="px-3 py-1  text-white rounded-lg">2</button>
-                        <button className="px-3 py-1  text-white rounded-lg">3</button>
+                        <button className="px-3 py-1  rounded-lg">1</button>
+                        <button className="px-3 py-1  rounded-lg">2</button>
+                        <button className="px-3 py-1  rounded-lg">3</button>
                         <button className="px-3 py-1 bg-gray-300 text-gray-700 rounded-lg">Next</button>
                     </div>
                 </div>
-                <div className='flex flex-col mt-14 flex-1 text-white items-center w-full'>
+                <div className='flex flex-col mt-14 flex-1  items-center w-full'>
                     <div className='w-[150px] h-[60px] '>
                         <img src="/google.png" className='w-full h-full' alt="" />
                     </div>

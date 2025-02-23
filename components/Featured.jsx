@@ -8,7 +8,7 @@ import Companies from './Companies'
 
 const FeaturedSection = () => {
   return (
-    <div className=' text-white mt-10'>
+    <div className='mt-10'>
       <div className='flex flex-col gap-10 w-[50%]'>
         <TitleCommon titleText="Featured Cases" />
         <SubTitle subtitle="Our Track Record" />

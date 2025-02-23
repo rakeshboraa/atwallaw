@@ -7,7 +7,7 @@ import ReviewSlider from './ReviewSlider'
 
 const Testimonial = () => {
   return (
-    <div className='text-white mt-10 '>
+    <div className=' mt-10 '>
       <div className='flex flex-col gap-10 w-[50%]'>
         <TitleCommon titleText="Testimonials" />
         <SubTitle subtitle="What Our Clients Say" />

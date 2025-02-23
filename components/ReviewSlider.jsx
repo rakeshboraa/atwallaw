@@ -52,7 +52,7 @@ const ReviewSlider = ({ items }) => {
 
     return (
         <div className="relative w-full max-w-[1120px] mx-auto">
-            {/* Left Button */}
+           
             {showLeftButton && (
                 <button
                     className="absolute -left-12 lef top-1/2 z-10 -translate-y-1/2 rounded-full  p-2 shadow-md "
@@ -65,12 +65,12 @@ const ReviewSlider = ({ items }) => {
             {/* Slider */}
             <motion.div
                 ref={sliderRef}
-                className="flex space-x-5 overflow-hidden no-scrollbar w-full"
+                className="flex space-x-5 text-white overflow-hidden no-scrollbar w-full"
             >
                 {items.map((item, index) => (
                     <div
                         key={index}
-                        className="flex-shrink-0 gap-3 flex flex-col rounded-lg bg-[#191F29] p-4 shadow-md"
+                        className="flex-shrink-0 gap-3 flex flex-col rounded-lg bg-[#0F4C85] p-4 shadow-md"
                         style={{ minWidth: itemWidth, maxWidth: itemWidth }}
                     >
                         <div className="flex justify-between items-center">
@@ -108,7 +108,7 @@ const ReviewSlider = ({ items }) => {
             {/* Right Button */}
             {showRightButton && (
                 <button
-                    className="absolute -right-12 top-1/2 z-10 -translate-y-1/2 rounded-full  p-2 shadow-md "
+                    className="absolute -right-12 top-1/2 z-10 -translate-y-1/2 rounded-full  p-2  "
                     onClick={() => scroll("right")}
                 >
                     <ChevronRight size={44} />

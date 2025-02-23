@@ -17,7 +17,7 @@ export default function BrickLayout() {
           {categories.map((category, index) => (
             <div
               key={index}
-              className="flex justify-center items-center p-8 bg-gray-800 shadow-xl rounded-xl text-xl font-bold text-white hover:text-red-800 transition-all cursor-pointer h-20"
+              className="flex justify-center items-center p-8 bg-[#0F4C85] shadow-xl rounded-xl text-xl font-bold text-white hover:text-black transition-all cursor-pointer h-20"
             >
               {category}
             </div>

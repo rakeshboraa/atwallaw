@@ -9,7 +9,7 @@ import Testimonial from "@/components/Testimonial";
 
 export default function aboutus() {
   return (
-    <div className="bg-black text-white">
+    <div className=" text-black">
       <div className=" px-6  pt-10 flex  ">
         <div className='flex flex-col gap-8 flex-1 pb-11 justify-center'>
           <TitleCommon titleText="About Me" />
