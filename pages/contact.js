@@ -23,7 +23,7 @@ const contact = () => {
                         </div>
                         <div className='flex flex-col gap-4'>
                             <h1 className='text-[30px]'>E-mail</h1>
-                            <p2 className='text-[23px]'>info@atwal.com</p2>
+                            <p2 className='text-[23px]'>info@Athwal.com</p2>
                         </div>
                     </div>
                 </div>

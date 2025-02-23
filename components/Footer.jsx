@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <div className=' space-x-10 flex  mb-2 mt-20'>
         <div className='flex flex-col w-1/4 gap-5 '>
-          <div className='font-bold text-3xl'>Atwal Law</div>
+          <div className='font-bold text-3xl'>Athwal Law</div>
           <p className='text-xl'>Don’t leave your defence to chance! Contact a Criminal Lawyer Mississauga today.</p>
           <div className="flex gap-6">
             <div className="border-2 cursor-pointer border-solid p-3 rounded-full border-red-800 shadow-lg transition-all duration-300 hover:shadow-red-500/50 hover:scale-110">
@@ -53,7 +53,7 @@ const Footer = () => {
             <div className='flex-1'>
               <h2 className='uppercase text-2xl'>head office</h2>
               <ul className='flex flex-col gap-[26px] my-6 text-[18px]'>
-                <li>Kahlon Law Professional Corporation</li>
+                <li>Athwal Law Professional Corporation</li>
                 <li>223-6200 Dixie Rd, Mississauga, ON L5T 2E1</li>
                 <li>Email: info@kahlonlaw.com</li>
                 <li>Phone: 416-502-8555</li>
@@ -67,7 +67,7 @@ const Footer = () => {
       <div className='flex gap-4 my-7 text-white w-full text-[23px] justify-center'>
         <span>Terms and Conditions</span>|
         <span>Privacy Policy</span>|
-        <span>© 2023 Atwals Law</span>|
+        <span>© 2023 Athwals Law</span>|
         <span>All rights reserved</span>
       </div>
 

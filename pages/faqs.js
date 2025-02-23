@@ -11,7 +11,7 @@ const faqs = () => {
             <div className='flex flex-col gap-10 w-[60%]'>
                 <TitleCommon titleText="FAQ" />
                 <SubTitle subtitle="Frequently Asked Questions About Our Law Firm" />
-                <Description descriptionText="Kahlon Law Professional Corporation strives to provide cost-efficient legal solutions. Recognizing that criminal charges are largely an unplanned expense, Kahlon Law offers clients the option of an affordable monthly payment plan. The firm is committed on providing you with the best representation in an affordable and stress-free manner." />
+                <Description descriptionText="Athwal Law Professional Corporation strives to provide cost-efficient legal solutions. Recognizing that criminal charges are largely an unplanned expense, Athwal Law offers clients the option of an affordable monthly payment plan. The firm is committed on providing you with the best representation in an affordable and stress-free manner." />
                 <GoogleReview />
             </div>
             <div className='max-w-6xl mx-auto p-8 max-h-screen max-auto'>

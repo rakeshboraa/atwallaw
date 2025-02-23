@@ -12,7 +12,7 @@ const FeaturedSection = () => {
       <div className='flex flex-col gap-10 w-[50%]'>
         <TitleCommon titleText="Featured Cases" />
         <SubTitle subtitle="Our Track Record" />
-        <Description descriptionText="At Atwal Law, our remarkable successes in past cases showcase our experience in achieving favorable outcomes for clients just like you. Explore our track record and contact us today to see how we can make a difference in your criminal case." />
+        <Description descriptionText="At Athwal Law, our remarkable successes in past cases showcase our experience in achieving favorable outcomes for clients just like you. Explore our track record and contact us today to see how we can make a difference in your criminal case." />
       </div>
       <div className='flex mt-14  gap-10'>
         <div className='flex-1'>

@@ -41,7 +41,7 @@ export default function aboutus() {
         <Description
           descriptionText={
             <div className='flex flex-col gap-6'>
-              <p>Explore the breadth of Kahlon Law’s Experience through our memberships in prestigious legal organizations. These affiliations reflect our ongoing commitment to excellence, current knowledge, and specialized training in criminal law — all to serve you better.</p>
+              <p>Explore the breadth of Athwal Law’s Experience through our memberships in prestigious legal organizations. These affiliations reflect our ongoing commitment to excellence, current knowledge, and specialized training in criminal law — all to serve you better.</p>
             </div>
           } />
       </div>
@@ -75,13 +75,13 @@ export default function aboutus() {
 
       </div>
       <div className='flex flex-col gap-10  my-20'>
-        <TitleCommon titleText="About Kahlon Law" />
+        <TitleCommon titleText="About Athwal Law" />
         <SubTitle subtitle="My Commitment to Legal Excellence" />
         <Description
           descriptionText={
             <div className='flex flex-col gap-6'>
               <p>After graduating, Antar articled with an influential criminal and quasi-criminal litigation firm in Toronto and once called to the Bar joined the firm as an associate. Shortly thereafter, he started his own practice to provide a personalized and cost-efficient service to his clients.</p>
-              <p>Antar has a strong record of success when contesting matters in court and is fiercely dedicated to achieving the best results. Antar is passionate about protecting the rights of each accused person and committed to providing a vigorous defense for his clients. Kahlon Law is built on strong core values such as client service, legal excellence and cost-efficient legal solutions.</p>
+              <p>Antar has a strong record of success when contesting matters in court and is fiercely dedicated to achieving the best results. Antar is passionate about protecting the rights of each accused person and committed to providing a vigorous defense for his clients. Athwal Law is built on strong core values such as client service, legal excellence and cost-efficient legal solutions.</p>
               <p>The firm strives to ensure you receive the highest quality legal representation while keeping you in mind. We offer complete transparency by keeping you informed through each step of the proceedings and are readily available to answer your questions and concerns.</p>
             </div>
           } />
