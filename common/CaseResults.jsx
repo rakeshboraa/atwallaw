@@ -22,13 +22,14 @@ const cases = [
 ];
 
 export default function CaseResults() {
+    
     return (
         <div className=" my-14">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {cases.map((caseItem, index) => (
                     <div
                         key={index}
-                        className="bg-gray-900 text-white border border-gray-900 rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300 flex flex-col h-[40pc]"
+                        className="border-2  border-[#0F4C85]  rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300 flex flex-col h-[40pc]"
                     >
                         <div className="w-[50px] h-[50px] my-4 rounded-lg flex justify-center items-center">
                             <VenusAndMars className="h-[50px] w-[50px]" />
@@ -41,7 +42,7 @@ export default function CaseResults() {
                             <span className="font-semibold">Results:</span> {caseItem.result}
                         </div>
                         <div className="mt-6 w-full">
-                            <button className="w-full px-4 py-2 bg-gray-800 border text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 transition-all duration-300">
+                            <button className="w-full px-4 py-2 bg-[#0F4C85] border text-white font-semibold rounded-lg shadow-md hover:bg-blue-900 transition-all duration-300">
                                 Case Result &gt;
                             </button>
                         </div>

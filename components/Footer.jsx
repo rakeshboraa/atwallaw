@@ -4,18 +4,18 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-      <div className='text-white  space-x-10 flex  mb-2 mt-20'>
+      <div className=' space-x-10 flex  mb-2 mt-20'>
         <div className='flex flex-col w-1/4 gap-5 '>
-          <div className='font-bold text-3xl'>Atwal Logo</div>
+          <div className='font-bold text-3xl'>Atwal Law</div>
           <p className='text-xl'>Don’t leave your defence to chance! Contact a Criminal Lawyer Mississauga today.</p>
           <div className="flex gap-6">
-            <div className="border-2 cursor-pointer border-solid p-3 rounded-full border-red-800 bg-black shadow-lg transition-all duration-300 hover:shadow-red-500/50 hover:scale-110">
+            <div className="border-2 cursor-pointer border-solid p-3 rounded-full border-red-800 shadow-lg transition-all duration-300 hover:shadow-red-500/50 hover:scale-110">
               <Youtube size={30} className="text-red-800 drop-shadow-[0_0_10px_#ff0000]" />
             </div>
-            <div className="border-2 cursor-pointer border-solid p-3 rounded-full border-blue-400 bg-black shadow-lg transition-all duration-300 hover:shadow-blue-400/50 hover:scale-110">
+            <div className="border-2 cursor-pointer border-solid p-3 rounded-full border-blue-400 shadow-lg transition-all duration-300 hover:shadow-blue-400/50 hover:scale-110">
               <Twitter size={30} className="text-blue-400 drop-shadow-[0_0_10px_#00acee]" />
             </div>
-            <div className="border-2 cursor-pointer  border-solid p-3 rounded-full border-blue-800 bg-black shadow-lg transition-all duration-300 hover:shadow-blue-800/50 hover:scale-110">
+            <div className="border-2 cursor-pointer  border-solid p-3 rounded-full border-blue-800  shadow-lg transition-all duration-300 hover:shadow-blue-800/50 hover:scale-110">
               <Linkedin size={30} className="text-blue-800 drop-shadow-[0_0_10px_#0077b5]" />
             </div>
           </div>

@@ -1,6 +1,6 @@
 function LegalGuide({ title, description, onReadMore }) {
     return (
-        <div className="py-6 border-b-2 mt-5 text-white shadow-lg ">
+        <div className="py-6 border-b-2 mt-5   ">
             <h1 className="text-2xl font-bold">
                 {title}
             </h1>
@@ -8,7 +8,7 @@ function LegalGuide({ title, description, onReadMore }) {
                 {description}
             </p>
             <button
-                className="mt-4  py-2  text-white rounded-lg "
+                className="mt-2  py-2   rounded-lg "
                 onClick={onReadMore}
             >
                 Read More

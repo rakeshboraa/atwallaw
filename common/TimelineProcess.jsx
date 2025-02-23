@@ -19,18 +19,18 @@ const TimelineEvent = ({ event, index, isLeft, isLast }) => {
             transition={{ duration: 0.6, delay: index * 0.2 }}
         >
             {/* Timeline Dot */}
-            <div className="absolute left-1/2 top-6 w-6 h-6 bg-red-600 rounded-full -translate-x-1/2 z-10" />
+            <div className="absolute left-1/2 top-6 w-6 h-6 bg-[#0F4C85] rounded-full -translate-x-1/2 z-10" />
 
             {/* Vertical Line for Events (Not for the Last Event) */}
             {!isLast && (
-                <div className="absolute left-1/2 top-6 w-1 bg-red-600 h-full -translate-x-1/2"></div>
+                <div className="absolute left-1/2 top-6 w-1 bg-[#0F4C85] h-full -translate-x-1/2"></div>
             )}
 
             <div className="flex w-full items-center">
                 {/* Left Side */}
                 <div className={`w-[calc(50%-40px)] ${!isLeft && "invisible"}`}>
                     <div className="bg-white shadow-lg rounded-2xl p-6 ml-auto mr-10 text-left">
-                        <div className="text-xl font-semibold text-red-600">{event.year}</div>
+                        <div className="text-xl font-semibold text-[#0F4C85]">{event.year}</div>
                         <div className="text-lg font-bold mt-2">{event.title}</div>
                         <div className="text-sm text-gray-600 mt-1">{event.description}</div>
                     </div>
@@ -47,7 +47,7 @@ const TimelineEvent = ({ event, index, isLeft, isLast }) => {
                 {/* Right Side */}
                 <div className={`w-[calc(50%-40px)] ${isLeft && "invisible"}`}>
                     <div className="bg-white shadow-lg rounded-2xl p-6 ml-10 text-left">
-                        <span className="text-xl font-semibold text-red-600">{event.year}</span>
+                        <span className="text-xl font-semibold text-[#0F4C85]">{event.year}</span>
                         <div className="text-lg font-bold mt-2">{event.title}</div>
                         <div className="text-sm text-gray-600 mt-1">{event.description}</div>
                     </div>
@@ -62,7 +62,7 @@ const TimelineProcess = () => {
         <div className="relative w-full max-w-6xl mx-auto py-12" aria-label="Timeline">
             {/* Main Vertical Timeline Line - Stops Above the Last Dot */}
             <div
-                className="absolute left-1/2 -translate-x-1/2 w-1 bg-red-600"
+                className="absolute left-1/2 -translate-x-1/2 w-1 bg-[#0F4C85]"
                 style={{
                     top: "72px", // Starts below the first event
                     bottom: "calc(120px + 2rem)", // Stops above the last dot

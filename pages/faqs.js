@@ -7,7 +7,7 @@ import React from 'react'
 
 const faqs = () => {
     return (
-        <div className='text-white mt-40 '>
+        <div className=' mt-40 '>
             <div className='flex flex-col gap-10 w-[60%]'>
                 <TitleCommon titleText="FAQ" />
                 <SubTitle subtitle="Frequently Asked Questions About Our Law Firm" />

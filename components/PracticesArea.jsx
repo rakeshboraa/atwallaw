@@ -6,7 +6,7 @@ import React from 'react'
 
 const PracticesArea = () => {
   return (
-    <div className='text-white mt-40 '>
+    <div className=' mt-40 '>
       <div className='flex flex-col gap-10 w-[50%]'>
         <TitleCommon titleText="Practice Areas" />
         <SubTitle subtitle="Areas We Have Successfully Handled" />

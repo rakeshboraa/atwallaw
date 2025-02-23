@@ -9,7 +9,7 @@ import React from 'react'
 
 const cases = () => {
     return (
-        <div className='text-white mt-40 '>
+        <div className=' mt-40 '>
             <div className='flex flex-col gap-10 w-[80%]'>
                 <TitleCommon titleText="Cases" />
                 <SubTitle subtitle="Defending Your Rights with Proven Success" />
@@ -24,9 +24,9 @@ const cases = () => {
                 <SubTitle subtitle="Success Story in Criminal Defense" />
                 <Description descriptionText="Explore the pivotal case where our strategic legal expertise has led to favorable outcomes, securing justice and protecting our clients’ rights." />
             </div>
-            <div className='w-full flex rounded p-10 gap-10 bg-slate-900 '>
+            <div className='w-full flex rounded p-10 gap-10 border-[#0F4C85] mt-10 border-2 '>
                 <div className='flex flex-1 flex-col gap-4 w-full   rounded-lg'>
-                    <div className='w-[100px] h-[100px] p-3 bg-slate-800 rounded-lg flex justify-center items-center'>
+                    <div className='w-[100px] h-[100px] p-3 border-[#0F4C85] border-2 rounded-lg flex justify-center items-center'>
                         <VenusAndMars className="h-[90px] w-[90px] " />
                     </div>
                     <span className='text-xl font-boldtext-xl font-bold'>

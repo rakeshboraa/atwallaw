@@ -12,7 +12,7 @@ export default function LegalTermsGrid() {
                 {terms.map((term, index) => (
                     <div
                         key={index}
-                        className="bg-gray-800 text-white px-4 py-2 rounded-lg shadow-md  text-lg font-semibold whitespace-nowrap"
+                        className="bg-[#0F4C85] text-white px-4 py-2 rounded-lg shadow-md  text-lg font-semibold whitespace-nowrap"
                     >
                         {term}
                     </div>

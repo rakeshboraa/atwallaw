@@ -5,7 +5,7 @@ import TitleCommon from '@/common/Title'
 
 const Process = () => {
   return (
-    <div className='flex flex-col gap-[140px] mt-40 text-white'>
+    <div className='flex flex-col gap-[140px] mt-40 '>
       <div className='flex flex-col gap-10  '>
         <TitleCommon titleText="The Court Process" />
         <SubTitle subtitle="Navigating Your Criminal Charges" />
