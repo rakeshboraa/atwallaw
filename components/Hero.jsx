@@ -9,11 +9,11 @@ const HeroSection = () => {
   return (
     <div className=" bg-white  text-black px-6  pt-10 flex  ">
       <div className='flex flex-col gap-8 flex-1 pb-11 justify-center'>
-        <TitleCommon titleText="Atwal Law" />
+        <TitleCommon titleText="Athwal Law" />
         <SubTitle subtitle="Experience Matters: Top Rated Criminal Lawyer" />
         <Description descriptionText="When you’re facing one of the toughest
             moments of your life, you need a criminal
-            lawyer who’s ready to fight for you. At Kahlon Law,
+            lawyer who’s ready to fight for you. At Athwal Law,
             we don’t just understand the complexities of the Canadian
             legal system—we know how to win. We have a proven record of
             success.

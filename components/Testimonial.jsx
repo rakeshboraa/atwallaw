@@ -11,7 +11,7 @@ const Testimonial = () => {
       <div className='flex flex-col gap-10 w-[50%]'>
         <TitleCommon titleText="Testimonials" />
         <SubTitle subtitle="What Our Clients Say" />
-        <Description descriptionText="At Atwal Law, we believe it’s crucial for you to know us. So, take a moment to read our Google reviews. They highlight our dedication to clients and our drive for successful outcomes." />
+        <Description descriptionText="At Athwal Law, we believe it’s crucial for you to know us. So, take a moment to read our Google reviews. They highlight our dedication to clients and our drive for successful outcomes." />
       </div>
       <div className='w-full flex gap-20 mt-20'>
         <div className='flex mt-8  flex-col gap-2 items-center'>
