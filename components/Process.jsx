@@ -24,7 +24,7 @@ const Process = () => {
           <SubTitle subtitle="Commitment To You" />
           <Description descriptionText="As leading criminal lawyers in Mississauga, we specialise in a wide range of criminal defence cases, from minor charges to serious offences. Our team at Athwal Law has successfully handled cases involving theft, assault, drug offences, DUI, white-collar crimes, and more. We have built a reputation for our dedication, knowledge, and proven track record in the courtroom." />
         </div>
-        <TimelineProcess />
+        {/* <TimelineProcess /> */}
       </div>
     </div>
   )
