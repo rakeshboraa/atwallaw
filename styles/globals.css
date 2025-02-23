@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-nunito) ;
+  background: black;
+}
+:root {
+  --header-height: 80px; 
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for WebKit browsers */
+}
+
+.scrollbar-hidden {
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
