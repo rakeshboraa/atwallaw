@@ -215,7 +215,7 @@ const Header = () => {
                           e.stopPropagation();
                           toggleDropdown(index);
                         }}
-                        className={`flex items-center justify-between w-full p-4 ${pathname.startsWith("/practiceAreas") ? "text-[#0F4C85]" : ""
+                        className={`flex uppercase items-center justify-between w-full p-4 ${pathname.startsWith("/practiceAreas") ? "text-[#0F4C85]" : ""
                           }`}
                       >
                         {item.label}
@@ -238,10 +238,9 @@ const Header = () => {
                         <ul ref={dropdownRef} className="bg-gray-50">
                           {item.dropdownItems.map((dropdownItem, idx) => (
                             <li key={idx} className="border-t border-gray-200">
-                              {/* /${dropdownItem.replace(/\s+/g, '-').toLowerCase()} */}
                               <Link
                                 href={`/practiceAreas`}
-                                className="block p-4 pl-8 hover:bg-gray-200 w-full text-left"
+                                className="block p-4 pl-8 uppercase hover:bg-gray-200 w-full text-left"
                                 onClick={() => {
                                   setOpenDropdown(null);
                                   setMobileMenuOpen(false);

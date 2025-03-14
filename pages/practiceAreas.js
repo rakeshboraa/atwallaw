@@ -54,7 +54,7 @@ const practiceAreas = () => {
                         </div>
                     </div>
                     <div className='flex flex-col mt-8 gap-4'>
-                        <SubTitle font={4} subtitle="What Is Assault with a Weapon According to the Criminal Code?" />
+                        <SubTitle subtitle="What Is Assault with a Weapon According to the Criminal Code?" />
                         <Description descriptionText={
                             <>
                                 <p>Assault is defined under section 265 of Canada’s Criminal Code as the deliberate application of force against someone, either directly or indirectly, against their will. A person can be prosecuted for assault with a deadly weapon or assault causing bodily harm according to section 267 of the Code if they:</p>
@@ -68,7 +68,7 @@ const practiceAreas = () => {
                         } />
                     </div>
                     <div className='flex flex-col mt-8 gap-4'>
-                        <SubTitle font={4} subtitle="What Is a Weapon?" />
+                        <SubTitle subtitle="What Is a Weapon?" />
                         <Description descriptionText={
                             <>
                                 <p>Section 2 of the Code defines weapons as any object used, intended to be used, or designed to be used to:</p>
@@ -81,7 +81,7 @@ const practiceAreas = () => {
                         } />
                     </div>
                     <div className='flex flex-col mt-8 gap-4'>
-                        <SubTitle font={4} subtitle="Examples of Weapons" />
+                        <SubTitle subtitle="Examples of Weapons" />
                         <Description descriptionText={
                             <>
                                 <p>Here are a few examples of weapons used in many cases of assault with a weapon:</p>
@@ -96,11 +96,9 @@ const practiceAreas = () => {
                         } />
                     </div>
                     <div className='flex flex-col mt-8 gap-4'>
-                        <SubTitle font={4} subtitle="The Consequences of Assault with a Weapon" />
+                        <SubTitle subtitle="The Consequences of Assault with a Weapon" />
                         <Description descriptionText={
-                            <>
-                                <p>Assault with a weapon is considered a hybrid offence. The Crown Attorney will decide whether the crime will be classified as a somewhat less serious summary conviction or an indictable offence, which is more serious and carries severe consequences. The circumstances of the assault, such as the use of a weapon or the severity of the injuries inflicted, will be taken into account when making this determination. An assault with a weapon in a domestic context will likely require a bail hearing. Upon release, the individual will be subjected to certain bail conditions i.e. prohibiting contact with the victim.</p>
-                            </>
+                            <p>Assault with a weapon is considered a hybrid offence. The Crown Attorney will decide whether the crime will be classified as a somewhat less serious summary conviction or an indictable offence, which is more serious and carries severe consequences. The circumstances of the assault, such as the use of a weapon or the severity of the injuries inflicted, will be taken into account when making this determination. An assault with a weapon in a domestic context will likely require a bail hearing. Upon release, the individual will be subjected to certain bail conditions i.e. prohibiting contact with the victim.</p>
                         } />
                     </div>
                     <h1 className="my-4 text-xl sm:text-2xl md:text-3xl">
@@ -113,7 +111,7 @@ const practiceAreas = () => {
                         Anyone convicted or found guilty of assault with a weapon can face a maximum penalty of 18 months in jail for a summary conviction. If the accused is found guilty of a more serious criminal offence, he or she faces a maximum sentence of ten years imprisonment. Discuss your options with your criminal defence lawyer to determine the best possible outcome for your case. The court will be more understanding of your circumstances as a first-time offender. Expect to receive a stiffer sentence if it is not your first offence.
                     </p>
 
-                    <SubTitle font={4} subtitle="What Must Be Proved for a Criminal Conviction?" />
+                    <SubTitle subtitle="What Must Be Proved for a Criminal Conviction?" />
 
                     <div className="h-80 w-full md:w-[30rem] mx-auto my-6">
                         <img
@@ -124,7 +122,7 @@ const practiceAreas = () => {
                     </div>
 
                     <div className="flex flex-col gap-4">
-                        <SubTitle font={4} subtitle="What If the Victim Gave Consent?" />
+                        <SubTitle subtitle="What If the Victim Gave Consent?" />
                         <Description
                             descriptionText={
                                 <p>
@@ -135,7 +133,7 @@ const practiceAreas = () => {
                     </div>
 
                     <div className="flex flex-col mt-8 gap-4">
-                        <SubTitle font={4} subtitle="Examples of Weapons" />
+                        <SubTitle subtitle="Examples of Weapons" />
                         <Description
                             descriptionText={
                                 <>
