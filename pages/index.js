@@ -23,7 +23,7 @@ export default function Home() {
           <PracticesArea />
           <Process />
           <Faq />
-          <ContactUs />
+          <ContactUs /> 
         </main>
       </div>
     </div>

@@ -5,20 +5,20 @@ import SubTitle from '@/common/SubTitle'
 import TitleCommon from '@/common/Title'
 import React from 'react'
 
-const faqs = () => {
+const Faqs = () => {
     return (
-        <div className=' mt-40 '>
-            <div className='flex flex-col gap-10 w-[60%]'>
+        <div className='mt-20 md:mt-40 px-4 md:px-10 lg:px-20'>
+            <div className='flex flex-col gap-10 '>
                 <TitleCommon titleText="FAQ" />
                 <SubTitle subtitle="Frequently Asked Questions About Our Law Firm" />
                 <Description descriptionText="Athwal Law Professional Corporation strives to provide cost-efficient legal solutions. Recognizing that criminal charges are largely an unplanned expense, Athwal Law offers clients the option of an affordable monthly payment plan. The firm is committed on providing you with the best representation in an affordable and stress-free manner." />
                 <GoogleReview />
             </div>
-            <div className='max-w-6xl mx-auto p-8 max-h-screen max-auto'>
+            <div className='p-4  max-h-screen'>
                 <FaqDropDown />
             </div>
         </div>
     )
 }
 
-export default faqs
+export default Faqs;

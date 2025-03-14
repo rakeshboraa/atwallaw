@@ -8,13 +8,13 @@ import Companies from './Companies'
 
 const FeaturedSection = () => {
   return (
-    <div className='mt-10'>
-      <div className='flex flex-col gap-10 w-[50%]'>
+    <div className='mt-10 px-4 sm:px-8 md:px-16 '>
+      <div className='flex flex-col gap-10 w-full md:w-[70%] lg:w-[50%]'>
         <TitleCommon titleText="Featured Cases" />
         <SubTitle subtitle="Our Track Record" />
         <Description descriptionText="At Athwal Law, our remarkable successes in past cases showcase our experience in achieving favorable outcomes for clients just like you. Explore our track record and contact us today to see how we can make a difference in your criminal case." />
       </div>
-      <div className='flex mt-14  gap-10'>
+      <div className='flex flex-col lg:flex-row mt-14 gap-10'>
         <div className='flex-1'>
           <CaseCard
             icon={VenusAndMars}
@@ -23,7 +23,6 @@ const FeaturedSection = () => {
             description="The court dismissed all charges after a week of trial. Defence counsel revealed inconsistencies in the complainant’s testimony, undermining her credibility. Although the accused had lied to police at first, he later took the stand to clarify. The judge found his testimony credible, resulting in an acquittal."
             buttonText="Case Results"
           />
-
         </div>
         <div className='flex-1'>
           <CaseCard
