@@ -13,7 +13,7 @@ import React from 'react'
 const practiceAreas = () => {
     return (
         <>
-            <div className=" h-[50vh] px-6 w-[80%] pt-5 flex  ">
+           <div className="min-h-[40vh] sm:min-h-[54vh] md:min-h-[44vh] lg:min-h-[44vh] xl:min-h-[44vh] px-6 w-[80%] pt-5 flex">
                 <div className='flex flex-col gap-10 justify-end flex-1 lg-pb-11  '>
                     <TitleCommon titleText="Practice Areas" />
                     <SubTitle subtitle="Explore Our Practice Areas" />
