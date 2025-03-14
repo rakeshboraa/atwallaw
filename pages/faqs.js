@@ -7,7 +7,7 @@ import React from 'react'
 
 const Faqs = () => {
     return (
-        <div className='mt-20 md:mt-40 px-4 md:px-10 lg:px-20'>
+        <div className='mt-20 md:mt-40 px-4 '>
             <div className='flex flex-col gap-10 '>
                 <TitleCommon titleText="FAQ" />
                 <SubTitle subtitle="Frequently Asked Questions About Our Law Firm" />
