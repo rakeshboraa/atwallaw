@@ -10,7 +10,7 @@ import Testimonial from "@/components/Testimonial";
 export default function aboutus() {
   return (
     <div className=" text-black">
-      <div class="px-6 pt-10 flex flex-col md:flex-row  md:items-start">
+      <div class="px-6 pt-10 flex flex-col md:flex-row  ">
         <div class="flex flex-col gap-8 flex-1 pb-11 justify-center text-center md:text-left">
           <TitleCommon titleText="About Me" />
           <SubTitle subtitle="Dedicated to defending your rights." />
@@ -26,7 +26,7 @@ export default function aboutus() {
         </div>
       </div>
       <StatsSection />
-      <div className="flex flex-col gap-10 my-20 px-6 sm:px-10 md:px-20 lg:px-40">
+      <div className="flex flex-col gap-10 my-20 px-6 sm:px-10  ">
         <TitleCommon titleText="My Story" />
         <SubTitle subtitle="Journey Through Legal Education" />
         <Description
@@ -38,7 +38,7 @@ export default function aboutus() {
           }
         />
       </div>
-      <div className="flex flex-col gap-10 my-20 w-full md:w-[60%] px-6 sm:px-10 md:px-20 lg:px-40">
+      <div className="flex flex-col gap-10 my-20 w-full  px-6 sm:px-10 ">
         <TitleCommon titleText="Professional Affiliations" />
         <SubTitle subtitle="Advocacy Group Memberships" />
         <Description
@@ -51,7 +51,7 @@ export default function aboutus() {
       </div>
 
 
-      <div className="mb-20 px-6 sm:px-10 md:px-20 lg:px-40">
+      <div className="mb-20 px-6 sm:px-10 ">
         <div className="flex flex-wrap justify-center gap-6 items-center">
           {[{
             logo: "https://kahlonlaw.com/wp-content/uploads//2024/03/Logo.svg",
@@ -75,7 +75,7 @@ export default function aboutus() {
           ))}
         </div>
       </div>
-      <div className="flex flex-col gap-10 my-20 w-full md:w-[60%] px-6 sm:px-10 md:px-20 lg:px-40">
+      <div className="flex flex-col gap-10 my-20 w-full  px-6 sm:px-10 ">
         <TitleCommon titleText="About Athwal Law" />
         <SubTitle subtitle="My Commitment to Legal Excellence" />
         <Description

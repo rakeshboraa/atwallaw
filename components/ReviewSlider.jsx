@@ -61,7 +61,7 @@ const ReviewSlider = ({ items }) => {
 
     return (
         <div className="relative w-full max-w-[1120px] mx-auto px-4 sm:px-0">
-            {showLeftButton && (
+            {!showLeftButton || (
                 <button
                     className="absolute -left-6 sm:-left-12 top-1/2 z-10 -translate-y-1/2 rounded-full p-2"
                     onClick={() => scroll("left")}
@@ -73,7 +73,7 @@ const ReviewSlider = ({ items }) => {
             <div className="overflow-hidden">
                 <motion.div
                     ref={sliderRef}
-                    className={`flex space-x-4 sm:space-x-5 text-white overflow-x-auto no-scrollbar w-full ${isMobile ? "justify-center" : ""}`}
+                    className={`flex space-x-4 sm:space-x-5 text-white overflow-x-auto scrollbar-hidden w-full ${isMobile ? "justify-center" : ""}`}
                     style={{
                         scrollSnapType: "x mandatory",
                         paddingLeft: isMobile ? "calc(50% - " + (itemWidth/2) + "px)" : "0",
@@ -121,7 +121,7 @@ const ReviewSlider = ({ items }) => {
                 </motion.div>
             </div>
 
-            {showRightButton && (
+            {!showRightButton || (
                 <button
                     className="absolute -right-4 sm:-right-12 top-1/2 z-10 -translate-y-1/2 rounded-full"
                     onClick={() => scroll("right")}
